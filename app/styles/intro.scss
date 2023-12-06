@@ -1,0 +1,46 @@
+section#intro>div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+section#intro p{
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .3s linear;
+    position: relative;
+    top: -50px;
+}
+section#intro.visible p{
+    opacity: 1;
+    top:0
+}
+section#intro span{
+    color:#fac86b;
+    font-family: 'Source Serif Pro',serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+section#intro a{
+  border: 2px solid $gold;
+  color: $gold;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 7px;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  opacity: 0;
+  transition: all .3s linear;
+  position: relative;
+  bottom: -50px;
+}
+section#intro.visible a{
+    opacity: 1;
+    bottom:0
+}

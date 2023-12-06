@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #34353A;
+    font-family: 'Roboto',sans-serif;
+}
+$gold:#fac86b;
+section{
+    background-color: #31333b;
+    max-width: 780px;
+    margin: 0 auto;
+    border-top: 2px solid $gold;
+    padding: 100px 0;
+}
+
+h2{
+    font-family: 'Source Serif Pro',serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:-28px;
+    left:50%;
+    width:350px;
+    margin-left:-175px;
+    display: inline-block;
+    padding: 0 30px;
+    background-color: #3D3E42;
+}
