@@ -12,7 +12,7 @@ header nav{
     
 }
 header nav a{
-    color: rgba(255,255,255,0.6);
+    color: $gold;
     padding:  10px;
     text-decoration: none;
 }
@@ -25,8 +25,8 @@ header div.social a svg{
     margin: 12px 10px;
 }
 header div.social a svg.linkedin{
-    fill: white;
+    fill: $gold;
 }
 header div.social a svg.insta{
-    fill:  white;
+    fill:  $gold;
 }
